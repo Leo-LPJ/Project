@@ -1,16 +1,3 @@
-#!/usr/bin/env python3
-"""
-Official implementation of paper 'Perceiving Longer Sequences With Bi-Directional Cross-Attention Transformers'
--> Published @ NeurIPS 2024, or see https://arxiv.org/pdf/2402.12138
-Modifications/Extensions Copyright Markus Hiller 2024
-
-Note: This training script is heavily based on the "ImageNet Training Script" from the timm library
-    hacked together by / Copyright 2020 Ross Wightman;
-    -- mixed with elements from the training script from the DeiT repository (Touvron et al.)
-        (with original copyright (c) Meta Platforms, Inc. and affiliates.
-    -> Restructured, modified & extended by Markus Hiller 2024
-"""
-
 import os
 import argparse
 import logging
