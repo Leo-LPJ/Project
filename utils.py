@@ -1,13 +1,3 @@
-""" Helpers for argument handling as well as dataset creation
-
-Files are part of the official implementation of the paper:
-'Perceiving Longer Sequences With Bi-Directional Cross-Attention Transformers'
--> Published @ NeurIPS 2024, or see https://arxiv.org/pdf/2402.12138
-
-Arguments saved to yaml for easier tracking / interpretation of experiments later on;
-Hashlib used to create unique hashes for checkpoint storage to avoid overwriting different experiments
-
-"""
 import yaml
 import hashlib
 
